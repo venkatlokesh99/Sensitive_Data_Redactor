@@ -1,9 +1,6 @@
 import os
 
 import pytest
-import spacy
-
-import sys
 
 from redactor import process_file
 

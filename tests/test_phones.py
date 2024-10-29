@@ -2,11 +2,10 @@ import os
 
 import pytest
 
-from censoror import process_file
+from redactor import process_file
 
 @pytest.fixture
 def input_dir(tmpdir):
-    print("TEMP DIR", tmpdir)
     return str(tmpdir)
 
 @pytest.fixture

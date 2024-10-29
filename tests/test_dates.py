@@ -1,7 +1,6 @@
 import os
 
 import pytest
-import warnings
 
 from redactor import process_file
 
