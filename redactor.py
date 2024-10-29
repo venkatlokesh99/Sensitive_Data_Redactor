@@ -5,9 +5,6 @@ import os
 import glob
 import sys
 from collections import defaultdict
-from transformers import AutoTokenizer, AutoModelForTokenClassification
-from transformers import pipeline
-from sentence_transformers import SentenceTransformer, util
 import warnings
 
 # Ignore all warnings
