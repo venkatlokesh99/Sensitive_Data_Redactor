@@ -109,7 +109,7 @@ Main function that parses command-line arguments and orchestrates the censoring 
 - Generates and outputs statistics
 
 
-# Test Case Descriptions
+## Test Case Descriptions
 
 ## 1. test_address.py
 
