@@ -175,7 +175,7 @@ These tests collectively ensure that the redactor correctly handles different ty
 - **Model Assumption**: It assumes that the SpaCy models used are always available and up-to-date, noting that compatibility issues may occur with different versions.
 - **Language**: The text is assumed to be in English, based on the use of the en_core_web_trf model.
 - **Concept Redaction Scope**: By default, entire sentences containing the concept will be redacted. If a concept appears in multiple contexts, every instance will lead to the redaction of the corresponding sentence.
-- **Email Name Detection**: The model attempts to identify and redact names within email addresses. For example, rotte.rachana@ufl.edu will have rotte.rachana redacted, but sgoza@ufl.edu will not have sgoza redacted as it is not recognized as a name.
+- **Email Name Detection**: The model attempts to identify and redact names within email addresses. For example, potter.harry@ufl.edu will have potter.harry redacted, but sgoza@ufl.edu will not have sgoza redacted as it is not recognized as a name.
 - **Address Types**: Only the address formats covered by the implemented regex patterns will be redacted. Pincodes and other unrecognized formats may not be redacted.
 - **Concept Affiliation**: The system targets exact concept words but may not comprehensively cover all affiliated mentions or similar concepts due to model variability.
 - **Date Formats**: The model is effective for standard date formats. Non-standard formats may not be redacted, and there's a risk of over-redaction with terms like month names or days.
