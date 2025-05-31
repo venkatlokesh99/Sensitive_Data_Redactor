@@ -1,6 +1,11 @@
 # Sensitive_Data_Redactor
-
 This project is a data pipeline system designed to detect and censor sensitive information in plain text documents. It provides functionality to redact names, dates, phone numbers, addresses, and even concepts from input files.
+## NLP techniques used
+   - Named Entity Recognition (NER)
+   - Regex-based pattern matching
+   - Cosine similarity
+   - Text tokenization and sentence segmentation
+   - Dependency parsing.
 
 ## Features
 
