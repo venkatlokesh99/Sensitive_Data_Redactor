@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Setup Python (faster than using Python container)
       - name: Setup Python
@@ -20,7 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pipenv wheel
       - id: cache-pipenv
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ~/.local/share/virtualenvs
           key: $-pipenv-$
