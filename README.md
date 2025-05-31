@@ -1,6 +1,4 @@
-# cis6930fa24-project1
-# Text Redaction Tool
-#### Name: Venkat Lokesh Vejendla
+# Sensitive_Data_Redactor
 
 This project is a data pipeline system designed to detect and censor sensitive information in plain text documents. It provides functionality to redact names, dates, phone numbers, addresses, and even concepts from input files.
 
